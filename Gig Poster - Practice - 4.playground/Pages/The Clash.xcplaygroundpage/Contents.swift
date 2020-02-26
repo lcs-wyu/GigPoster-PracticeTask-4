@@ -34,8 +34,13 @@ let black = Color(hue: 0, saturation: 100, brightness: 0, alpha: 100)
 // Begin your work below...
 canvas.fillColor = orange
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: 1000, height: 1000)
-
-
+canvas.drawText(message: "the clash", at: Point(x: 20, y: 90), size: 50, kerning: 0.0)
+canvas.drawText(message: "with the brattles", at: Point(x: 20, y: 40), size: 8, kerning: 0.0)
+canvas.drawText(message: "and dead keenedys", at: Point(x: 20, y: 30), size: 8, kerning: 0.0)
+canvas.drawText(message: "matinee and eve", at: Point(x: 110, y: 40), size: 8, kerning: 0.0)
+canvas.drawText(message: "saturday / june 13 1981", at: Point(x: 110, y: 30), size: 8, kerning: 0.0)
+canvas.drawText(message: "bonds international casino", at: Point(x: 260, y: 40), size: 8, kerning: 0.0)
+canvas.drawText(message: "in times square, new york city", at: Point(x: 260, y: 30), size: 8, kerning: 0.0)
 /*:
  ## Use Source Control
  
