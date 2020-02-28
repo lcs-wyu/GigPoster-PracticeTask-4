@@ -41,6 +41,15 @@ canvas.drawText(message: "matinee and eve", at: Point(x: 110, y: 40), size: 8, k
 canvas.drawText(message: "saturday / june 13 1981", at: Point(x: 110, y: 30), size: 8, kerning: 0.0)
 canvas.drawText(message: "bonds international casino", at: Point(x: 260, y: 40), size: 8, kerning: 0.0)
 canvas.drawText(message: "in times square, new york city", at: Point(x: 260, y: 30), size: 8, kerning: 0.0)
+canvas.translate(to: Point(x: 165, y: 380))
+canvas.rotate(by: 45)
+canvas.borderColor = blue
+canvas.fillColor = blue
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 20, height: 20, anchoredBy: AnchorPosition.centre, borderWidth: 0)
+canvas.drawShapesWithFill = false
+for n in stride(from: 51, through: 306, by: 51) {
+    canvas.drawRectangle(at: Point(x: 0, y: 0), width: n, height: n, anchoredBy: AnchorPosition.centre, borderWidth: 12)
+}
 /*:
  ## Use Source Control
  
